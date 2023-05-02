@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>SpringBoot-Example</title>
+        <style>
+            #content {
+                margin-top: 80px;
+                margin-left: 80px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container" th:class="${season}">
+            <div id="content">
+                <h1>인생이 많이 힘든가봐요..</h1>
+                <div>저도 살아보니까 그렇더라고요...</div>
+                <div>그런데 그거 아시나요?</div>
+                <br />
+                <h3>지금 한강물 온도가 무려 <span th:text="${temperature}"></span>℃ 래요.</h3>
+                <div>지금 뛰어들기엔 너무 추운 것 같아요.</div>
+                <div>그렇지 않나요?</div>
+                <h2>그러니까 우리 약속 하나만 해요.</h2>
+                <div>시간이 흐르고, 계절이 지나고..</div>
+                <div>언젠가 한강물이 따뜻해지는 그날까지</div>
+                <div>그날을 기다리며 열심히 살아봐요!</div>
+                <br />
+                <div>그때는.. 정말 모든 것을 내려놓고</div>
+                <div>한강물에 몸을 맡겨도 되지 않을까요..?</div>
+            </div>
+        </div>
+    </body>
+</html>

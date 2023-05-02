@@ -1,0 +1,12 @@
+.spring {
+    background-image: linear-gradient(180deg, #FFD4D4, WHITE);
+}
+.summer {
+    background-image: linear-gradient(180deg, #DDFFBB, WHITE);
+}
+.autumn {
+    background-image: linear-gradient(180deg, #F97B22, WHITE);
+}
+.winter {
+    background-image: linear-gradient(180deg, #B9EDDD, WHITE);
+}
